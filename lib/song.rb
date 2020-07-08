@@ -16,14 +16,25 @@ class Song
   def self.count
     @@count
   end
+  
   def self.genres
     @@genres.uniq
   end
+  
   def self.artists
-
     @@artists.uniq
   end
+  
   def self.genre_count
+  end
+
+  def self.artist_count
+
+    @@artists.each do |g| 
+      if @@artists[g] 
+        @@artists[g] += 1
+        eld 
+        @@artists[g] = 1
   end
 end
 end
