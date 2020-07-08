@@ -36,7 +36,7 @@ artists = {}
       else
         artists[g] = 1
 end
-artist
+artists
 end
 end
 end
