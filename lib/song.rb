@@ -33,7 +33,7 @@ class Song
     @@artists.each do |g|
       if @@artists[g]
         @@artists[g] += 1
-        eld
+      else
         @@artists[g] = 1
   end
 end
