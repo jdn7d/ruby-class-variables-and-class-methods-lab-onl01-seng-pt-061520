@@ -15,7 +15,7 @@ class Song
     @@count
   end
   def self.artists(artist)
-   @@artist << artist
+   @@artists << artist
   end
 end
 end
