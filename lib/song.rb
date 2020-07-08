@@ -37,4 +37,4 @@ class Song
         @@artists[g] = 1
   end
 end
-end
+
