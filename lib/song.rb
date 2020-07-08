@@ -16,6 +16,7 @@ class Song
   end
   def self.artists(artist)
    @@artists << artist
+   return @@artists
   end
 end
 end
