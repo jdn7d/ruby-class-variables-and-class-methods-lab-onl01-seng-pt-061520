@@ -46,7 +46,7 @@ def self.artist_count
     then  artist_count[artist] += 1
   else
       then artist_count[artist] = 1}
-    
+
   end
   artist_count
 end
