@@ -48,6 +48,6 @@ def self.artist_count
     artist_hash[artist] = 1
     end
   end
-  count
+  artist_hash
 end
 end
