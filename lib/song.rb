@@ -36,4 +36,3 @@ class Song
       else
         @@artists[g] = 1
   end
-
